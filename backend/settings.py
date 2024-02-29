@@ -68,7 +68,9 @@ MIDDLEWARE = [
     
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000'
+    'http://localhost:3000',
+    'https://freelanceapp-frontend-production.up.railway.app',
+  
 ]
 CORS_ORIGIN_ALLOW_ALL = True
 
@@ -95,7 +97,10 @@ TEMPLATES = [
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost/'
     'https://freelanceapp-frontend-production.up.railway.app/'
+    'freelanceapp-frontend.railway.internal'
 ]
+
+
 
 WSGI_APPLICATION = 'backend.wsgi.application'
 

@@ -94,6 +94,7 @@ TEMPLATES = [
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost/'
+    'https://freelanceapp-frontend-production.up.railway.app/'
 ]
 
 WSGI_APPLICATION = 'backend.wsgi.application'

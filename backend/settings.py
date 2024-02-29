@@ -96,8 +96,8 @@ TEMPLATES = [
 
 CSRF_TRUSTED_ORIGINS = [
     'http://localhost/'
-    'https://freelanceapp-frontend-production.up.railway.app/'
-    'freelanceapp-frontend.railway.internal'
+    'https://*freelanceapp-frontend-production.up.railway.app/'
+    'https://*.railway.app/'
 ]
 
 

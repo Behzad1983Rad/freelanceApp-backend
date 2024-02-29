@@ -19,7 +19,7 @@ class JobApplication(models.Model):
     applied_at = models.DateTimeField(auto_now_add=True)
 
 
-class Photo(models.Model):
+class Freelancer_Photo(models.Model):
   url = models.CharField(max_length=200)
   freelancer = models.ForeignKey(FreelancerProfile, on_delete=models.CASCADE)
 

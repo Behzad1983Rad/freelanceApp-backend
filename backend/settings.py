@@ -33,7 +33,9 @@ SECRET_KEY = 'django-insecure-k1nwo*u!7w^9tk_is(+n(85%ji355rp@okxr&)gz0#7*=9&c5i
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'localhost'
+    'localhost',
+    'freelanceapp-backend-production.up.railway.app',
+    'freelanceapp-backend.railway.internal'
 ]
 
 
